@@ -1,0 +1,16 @@
+# accidentally discovering new loops and patterns  😭😭
+n = int(input("enter no of cls "))
+
+
+for i in range (n):
+    
+        for j in range (n) :
+            if j<i :
+                continue
+                print()
+            if i<j:
+                    print("8", end = " ")
+            else:
+                    print(" ", end=" ")
+                            
+        print(" ")
