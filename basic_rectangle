@@ -1,0 +1,7 @@
+m = int(input("enter no of cls "))
+n = int(input("enter no of rows "))
+
+for i in range (n):
+    for j in range (m) :
+        print("*", end = " ")
+    print(" ")
