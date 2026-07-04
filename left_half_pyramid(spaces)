@@ -1,0 +1,16 @@
+# else if version: with only spaces without jump statements same code with small alterations
+n = int(input("enter no of cls "))
+
+k = n 
+print(k)
+for i in range (n):
+    
+        for j in range (n) :
+            if j>(k-1):
+                print(" ", end =" ")
+                
+            else:
+                print("*", end=" ")
+        k = k-1  
+        print(" ")
+        
