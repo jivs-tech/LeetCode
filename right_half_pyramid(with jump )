@@ -1,0 +1,13 @@
+# else if version:
+n = int(input("enter no of cls "))
+
+
+for i in range (n):
+    
+        for j in range (n) :
+            if j<=i:
+                print(j+1, end = " ")
+            else:
+                break                 #we can use continue too, to keep the flow goin
+            
+        print(" ")
